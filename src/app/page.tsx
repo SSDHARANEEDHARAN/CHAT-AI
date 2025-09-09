@@ -70,7 +70,7 @@ const App = () => {
       setMessage("");
       setIsResponseScreen(true);
 
-      const genAI = new GoogleGenerativeAI("AIzaSyDMEBaACrcg2FFkruTAR_hVTO5kxi9KQ8g");
+      const genAI = new GoogleGenerativeAI("AIzaSyCq_4E3N1xiPbut5-TFdP-mtkdxbQ5rUxQ");
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
       
       const safetySettings = parentalControl ? [
